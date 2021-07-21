@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(https://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg);
+    padding: 100px 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px;
+}
+.container {
+    width: 800px;
+    min-height: 300px;
+    border: 10px solid rgb(200, 231, 243);
+    margin: 0 auto;
+    background: rgb(200, 231, 243);
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://russobalt.org/forum/uploads/monthly_09_2018/post-5706-0-27184700-1537382853.jpg) no-repeat center center / cover;
+    color: whitesmoke;
+    margin-right: 10px;s
+}
+
+.title-block:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://i.ibb.co/0Mjcvq6/myphoto.jpg);
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+}
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    text-align: left;
+}
+.skills li {
+    margin 10px 0;
+}
